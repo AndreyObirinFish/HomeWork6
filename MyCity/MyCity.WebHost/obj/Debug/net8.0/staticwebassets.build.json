@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "OAZdGqanQXz9p9ZfbfGFOXqxcpQ5Iz9hArHe5NMEU/M=",
+  "Source": "MyCity.WebHost",
+  "BasePath": "_content/MyCity.WebHost",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

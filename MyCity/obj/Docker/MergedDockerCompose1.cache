@@ -1,0 +1,60 @@
+name: dockercompose4389267118253165614
+services:
+  mycity.db:
+    container_name: mycity.db
+    environment:
+      POSTGRES_DB: mycity
+      POSTGRES_PASSWORD: mycity
+      POSTGRES_USER: mycity
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - pg_isready -U mycity
+      timeout: 5s
+      interval: 10s
+      retries: 5
+      start_period: 10s
+    image: postgres:16-alpine
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        host_ip: 127.0.0.1
+        target: 5432
+        published: "5432"
+        protocol: tcp
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: D:\Lessons\ASP Net\Projets\Dev\MyCity\volumes\postgres\db
+        target: /var/lib/postgresql/data
+        bind:
+          create_host_path: true
+  mycity.webhost:
+    build:
+      context: D:\Lessons\ASP Net\Projets\Dev\MyCity
+      dockerfile: MyCity.WebHost/Dockerfile
+    container_name: mycity.webhost
+    depends_on:
+      mycity.db:
+        condition: service_healthy
+        required: true
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+      ConnectionStrings:MyCityDb: Host=mycity.db;Database=mycity;Username=mycity;Password=mycity
+    image: mycitywebhost
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        host_ip: 127.0.0.1
+        target: 8080
+        published: "8080"
+        protocol: tcp
+      - mode: ingress
+        target: 8080
+        protocol: tcp
+networks:
+  default:
+    name: dockercompose4389267118253165614_default

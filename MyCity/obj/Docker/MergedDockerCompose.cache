@@ -1,0 +1,25 @@
+name: dockercompose4389267118253165614
+services:
+  mycity.webhost:
+    build:
+      context: D:\Lessons\ASP Net\Projets\Dev\MyCity
+      dockerfile: MyCity.WebHost/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+    image: mycitywebhost
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        host_ip: 127.0.0.1
+        target: 8080
+        published: "8080"
+        protocol: tcp
+      - mode: ingress
+        target: 8080
+        protocol: tcp
+    restart: unless-stopped
+networks:
+  default:
+    name: dockercompose4389267118253165614_default

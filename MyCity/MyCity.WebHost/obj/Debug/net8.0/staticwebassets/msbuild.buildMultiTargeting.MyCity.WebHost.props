@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MyCity.WebHost.props" />
+</Project>

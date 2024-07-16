@@ -1,0 +1,12 @@
+D:\Lessons\ASP Net\Projets\Dev\MyCity\MyCity.Dtos\bin\Debug\net8.0\MyCity.Dtos.deps.json
+D:\Lessons\ASP Net\Projets\Dev\MyCity\MyCity.Dtos\bin\Debug\net8.0\MyCity.Dtos.dll
+D:\Lessons\ASP Net\Projets\Dev\MyCity\MyCity.Dtos\bin\Debug\net8.0\MyCity.Dtos.pdb
+D:\Lessons\ASP Net\Projets\Dev\MyCity\MyCity.Dtos\obj\Debug\net8.0\MyCity.Dtos.GeneratedMSBuildEditorConfig.editorconfig
+D:\Lessons\ASP Net\Projets\Dev\MyCity\MyCity.Dtos\obj\Debug\net8.0\MyCity.Dtos.AssemblyInfoInputs.cache
+D:\Lessons\ASP Net\Projets\Dev\MyCity\MyCity.Dtos\obj\Debug\net8.0\MyCity.Dtos.AssemblyInfo.cs
+D:\Lessons\ASP Net\Projets\Dev\MyCity\MyCity.Dtos\obj\Debug\net8.0\MyCity.Dtos.csproj.CoreCompileInputs.cache
+D:\Lessons\ASP Net\Projets\Dev\MyCity\MyCity.Dtos\obj\Debug\net8.0\MyCity.Dtos.sourcelink.json
+D:\Lessons\ASP Net\Projets\Dev\MyCity\MyCity.Dtos\obj\Debug\net8.0\MyCity.Dtos.dll
+D:\Lessons\ASP Net\Projets\Dev\MyCity\MyCity.Dtos\obj\Debug\net8.0\refint\MyCity.Dtos.dll
+D:\Lessons\ASP Net\Projets\Dev\MyCity\MyCity.Dtos\obj\Debug\net8.0\MyCity.Dtos.pdb
+D:\Lessons\ASP Net\Projets\Dev\MyCity\MyCity.Dtos\obj\Debug\net8.0\ref\MyCity.Dtos.dll

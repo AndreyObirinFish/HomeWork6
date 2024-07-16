@@ -1,0 +1,16 @@
+D:\Lessons\ASP Net\Projets\Dev\MyCity\MyCity.Core\bin\Debug\net8.0\MyCity.Core.deps.json
+D:\Lessons\ASP Net\Projets\Dev\MyCity\MyCity.Core\bin\Debug\net8.0\MyCity.Core.dll
+D:\Lessons\ASP Net\Projets\Dev\MyCity\MyCity.Core\bin\Debug\net8.0\MyCity.Core.pdb
+D:\Lessons\ASP Net\Projets\Dev\MyCity\MyCity.Core\bin\Debug\net8.0\MyCity.Dtos.dll
+D:\Lessons\ASP Net\Projets\Dev\MyCity\MyCity.Core\bin\Debug\net8.0\MyCity.Dtos.pdb
+D:\Lessons\ASP Net\Projets\Dev\MyCity\MyCity.Core\obj\Debug\net8.0\MyCity.Core.csproj.AssemblyReference.cache
+D:\Lessons\ASP Net\Projets\Dev\MyCity\MyCity.Core\obj\Debug\net8.0\MyCity.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Lessons\ASP Net\Projets\Dev\MyCity\MyCity.Core\obj\Debug\net8.0\MyCity.Core.AssemblyInfoInputs.cache
+D:\Lessons\ASP Net\Projets\Dev\MyCity\MyCity.Core\obj\Debug\net8.0\MyCity.Core.AssemblyInfo.cs
+D:\Lessons\ASP Net\Projets\Dev\MyCity\MyCity.Core\obj\Debug\net8.0\MyCity.Core.csproj.CoreCompileInputs.cache
+D:\Lessons\ASP Net\Projets\Dev\MyCity\MyCity.Core\obj\Debug\net8.0\MyCity.Core.sourcelink.json
+D:\Lessons\ASP Net\Projets\Dev\MyCity\MyCity.Core\obj\Debug\net8.0\MyCity.Core.csproj.CopyComplete
+D:\Lessons\ASP Net\Projets\Dev\MyCity\MyCity.Core\obj\Debug\net8.0\MyCity.Core.dll
+D:\Lessons\ASP Net\Projets\Dev\MyCity\MyCity.Core\obj\Debug\net8.0\refint\MyCity.Core.dll
+D:\Lessons\ASP Net\Projets\Dev\MyCity\MyCity.Core\obj\Debug\net8.0\MyCity.Core.pdb
+D:\Lessons\ASP Net\Projets\Dev\MyCity\MyCity.Core\obj\Debug\net8.0\ref\MyCity.Core.dll
